@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+.App {
+  font-family: "Roboto";
+}
+body {
+  margin: 0;
+  width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button:focus {
+  outline: none;
+}
+
+.nav-item {
+  padding: 4px;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #fff;
+  border: none;
+  margin-left: 16px;
+}
+
+.active {
+  background: #e5f1f7 !important;
+  border-radius: 5px !important;
+  border-left: 5px solid #0072b4 !important;
+}
